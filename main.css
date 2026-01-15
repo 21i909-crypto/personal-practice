@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: #000000;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+#logo{
+    flex: 1;
+}
+img{
+    max-height: 80px;
+    border: white 4px solid;
+    object-fit: cover;
+}
+#space{
+    flex: 8;
+}
+.menu{
+    flex: 3;
+    display: flex;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+.content{
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(208, 204, 204);
+}
+hr{
+    margin: 10px;
+    border: 2px solid black;
+}
+#morespace{
+    height: 2000px;
+}
+.footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
